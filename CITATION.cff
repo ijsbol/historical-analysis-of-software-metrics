@@ -1,0 +1,26 @@
+cff-version: "1.2.0"
+message: "If you use this work, please cite it as below."
+title: "Historical Analysis of Software Metrics"
+version: "v1"
+date-released: "2025-04-08"
+url: "https://github.com/ijsbol/historical-analysis-of-software-metrics"
+authors:
+  - given-names: "abigail"
+    family-names: "phoebe"
+abstract: |
+  A Python package containing utilities to aid in the automated analysis of a PyPI packages software metrics over its lifespan. Contains automated metric calculations for Fan-in and Fan-out dependencies, Instability, Modularity Quality, several Chidamber & Kemerer Metrics (Weighted Methods per Class, Response For a Class, Coupling Between Objects, and Lack of Cohesion in Methods) as detected by Radon, and Software Maintenance metrics focusing on Code Clone rates as detected by SourceMeter.
+keywords:
+  - "Software"
+  - "Analysis"
+  - "Data Visualization"
+license: "CC BY-SA 4.0"
+repository-code: "https://github.com/ijsbol/historical-analysis-of-software-metrics"
+
+preferred-citation:
+  type: software
+  title: "Historical Analysis of Software Metrics"
+  authors:
+    - given-names: "abigail"
+      family-names: "phoebe"
+  year: 2026
+  url: "https://github.com/ijsbol/historical-analysis-of-software-metrics"
