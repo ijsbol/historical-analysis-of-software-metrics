@@ -6,6 +6,9 @@ This project was made to analyze the [collective/icalendar](https://github.com/c
 
 Results of the `collective/icalendar` analysis can be found in [graphs/](graphs/)
 
+![all stats overlayed graph](graphs/overlay_all.png)
+
+
 ## Usage instructions
 
 1. `download-versions.py`
@@ -16,3 +19,33 @@ Results of the `collective/icalendar` analysis can be found in [graphs/](graphs/
 5. `generate-sm-metrics.py`
 6. `create-graphs.py`
 
+
+## Citing this repository
+
+If you use this repository in your works, please make sure to cite it.
+
+APA
+```
+phoebe, A. (2026). Historical Analysis of Software Metrics [Computer software]. https://github.com/ijsbol/historical-analysis-of-software-metrics
+```
+
+BiBTeX
+```
+@software{phoebe2026historical,
+  author       = {Phoebe, Abigail},
+  title        = {{Historical Analysis of Software Metrics}},
+  year         = {2026},
+  version      = {v1},
+  url          = {https://github.com/ijsbol/historical-analysis-of-software-metrics},
+  license      = {CC BY-SA 4.0},
+  abstract     = {A Python package containing utilities to aid in the automated
+                  analysis of a PyPI package's software metrics over its lifespan.
+                  Contains automated metric calculations for Fan-in and Fan-out
+                  dependencies, Instability, Modularity Quality, several Chidamber
+                  \& Kemerer Metrics (Weighted Methods per Class, Response For a
+                  Class, Coupling Between Objects, and Lack of Cohesion in Methods)
+                  as detected by Radon, and Software Maintenance metrics focusing
+                  on Code Clone rates as detected by SourceMeter.},
+  keywords     = {Software, Analysis, Data Visualization}
+}
+```
