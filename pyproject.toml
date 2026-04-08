@@ -1,0 +1,13 @@
+[project]
+name = "historical-analysis-of-software-metrics"
+version = "0.1.0"
+description = "A Python package containing utilities to aid in the automated analysis of a PyPI packages software metrics over its lifespan."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "packaging>=26.0",
+    "pydeps>=3.0.2",
+    "pylint>=4.0.5",
+    "radon>=6.0.1",
+]
