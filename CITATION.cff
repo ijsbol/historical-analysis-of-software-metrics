@@ -2,7 +2,7 @@ cff-version: "1.2.0"
 message: "If you use this work, please cite it as below."
 title: "Historical Analysis of Software Metrics"
 version: "v1"
-date-released: "2025-04-08"
+date-released: "2026-04-08"
 url: "https://github.com/ijsbol/historical-analysis-of-software-metrics"
 authors:
   - given-names: "abigail"
