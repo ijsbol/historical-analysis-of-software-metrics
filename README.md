@@ -6,8 +6,9 @@ This project was made to analyze the [collective/icalendar](https://github.com/c
 
 Results of the `collective/icalendar` analysis can be found in [graphs/](graphs/)
 
-![all stats overlayed graph](graphs/overlay_all.png)
+A writeup of this project is available at [abigail.sh/writing/historical-analysis-of-software-metrics](https://abigail.sh/writing/historical-analysis-of-software-metrics/), this writeup also includes a four-page paper that goes into detail on each metric studied in relation to the iCalendar project.
 
+![all stats overlayed graph](graphs/overlay_all.png)
 
 ## Usage instructions
 
